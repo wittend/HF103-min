@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a6bdb5ae-8f9c-40cb-b68a-86d3cad405bf)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "HF103-Min")
+    (date "2023-06-25")
+    (rev "0.0.1")
+    (comment 1 "Minimalist Rework of HF-103 ")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "HF103-Min (minimalist)" (at 97.79 50.8 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 2bf06393-4e7c-498b-bd0e-b97ac7f0b0a0)
+  )
+
+  (sheet (at 95.25 63.5) (size 40.64 25.4)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 76d22c17-ff01-4e77-a8f1-10e65097defa)
+    (property "Sheetname" "HF103-USB-ADC-GPIO" (at 97.79 77.47 0)
+      (effects (font (size 2 2) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "HF103-USB.kicad_sch" (at 95.25 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HF103-Min"
+        (path "/a6bdb5ae-8f9c-40cb-b68a-86d3cad405bf" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 152.4 63.5) (size 40.64 25.4)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8c380369-8e8f-45e8-9e3f-03ede4dd855a)
+    (property "Sheetname" "HF103-Power" (at 160.02 77.47 0)
+      (effects (font (size 2 2) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "HF103-Power.kicad_sch" (at 152.4 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "HF103-Min"
+        (path "/a6bdb5ae-8f9c-40cb-b68a-86d3cad405bf" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
