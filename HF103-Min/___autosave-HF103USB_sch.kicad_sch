@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 22616b5e-cdf1-4c3e-b0f3-065cfa9a727c)
+
+  (paper "A4")
+
+  (title_block
+    (title "USB3 and Assciated Items")
+    (date "2023-06-25")
+    (rev "0.1.0")
+  )
+
+  (lib_symbols
+  )
+
+)
